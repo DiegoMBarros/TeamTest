@@ -5,22 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>Novo Contato</title>
 </head>
 
 <body>
-    <form action="sucesso.html">
-        <input id="nome" type="text" placeholder="Nome completo">
-        <input id="email" type="text" placeholder="Email">
-        <input id="celular" type="text" placeholder="Celular">
-        <select id="tipo">
-            <option value="Whats">Whats</option>
-            <option value="Telegram">Telegram</option>
-            <option value="SMS">SMS</option>
-        </select>
 
-        <input type="submit" value="Cadastrar">
-    </form>
+    <div class="container">
+        <nav class="navbar bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">DevTester</a>
+        </nav>
+    </div>
+
+    <div class="container novo-contato">
+        
+        <h4>Novo Contato</h4>
+        <form action="sucesso.html">
+            <div class="form-group">
+                <input id="nome" class="formulario" type="text" placeholder="Nome completo">
+            </div>
+            <div class="form-group">
+                <input id="email" class="formulario" type="text" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input id="celular" class="formulario" type="text" placeholder="Celular">
+            </div>
+            <div class="form-group">
+                <select id="tipo" class="formulario">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="Whats">Whats</option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="SMS">SMS</option>
+                </select>
+                <small class="form-text text-muted">Você deve selecionar pelo menos um tipo de contato.</small>
+            </div>
+
+            <input type="submit" class="btn btn-sucess" value="Cadastrar">
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
