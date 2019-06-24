@@ -34,7 +34,7 @@ Funcionalidade: Novo Contato
 
         Exemplos:
         |nome        |celular   |tipo     |mensagem                                   |
-        |            |1199991001|Whats    |Ops. O nome deve ser preenchido            |
+        |            |1199991001|Whats    |Ops. O nome deve ser preenchido.           |
         |Peter Parker|          |Telegram |Ops. O celular deve ser preenchido         |
         |Scott Lang  |1199991003|         |Ops. Por favor selecione um tipo de contato|
 
