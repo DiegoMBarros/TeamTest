@@ -46,6 +46,7 @@ Funcionalidade: Novo Contato
         |Scott Lang  |1199991006|         |Ops. Por favor selecione um tipo de contato|
 
 
+    @sprint3
     Cenario: Celular não pode ser duplicado
         Dado que possuo o seguinte contato
             | nome    | Fernando Papito |

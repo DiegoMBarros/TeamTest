@@ -17,6 +17,7 @@ class DAO
     contatos.delete_many('celular' => celular)
   end
 
+  #Os metodos "conecta" e "contatos" são privados, somente podendo ser utilizado pela classe
   private
   def conecta
     Mongo::Logger.logger = Logger.new('log/mongo.log')
